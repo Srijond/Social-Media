@@ -1,0 +1,7 @@
+asgiref==3.4.1
+Django==3.0.14
+mysqlclient==2.1.1
+sqlparse==0.4.4
+Pillow==7.0.0
+social-auth-app-django==3.1.0
+
