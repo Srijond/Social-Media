@@ -1,4 +1,4 @@
-from django.urls import include, path
+from django.urls import include, path, register_converter
 from django.contrib.auth import views as auth_views
 from . import views
 
@@ -22,7 +22,8 @@ urlpatterns = [
     path('register/',views.register, name='register'),
     path('edit/', views.edit, name='edit'),
     path('users/',views.user_list, name='user_list'),
+    path('users/follow/',views.follow, name='follow'),
     path('users/<username>/',views.user_detail, name='user_detail'),
-    path('users/follow/',views.srijon, name='srijon'),
-
+    
+    
 ]
